@@ -1,0 +1,12 @@
+platform :ios, '11.2'
+
+target 'CoinList' do
+  use_frameworks!
+
+  target 'CoinListTests' do
+    inherit! :search_paths
+
+    pod 'OHHTTPStubs/Swift'
+  end
+
+end
